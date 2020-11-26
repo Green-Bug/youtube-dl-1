@@ -51,3 +51,5 @@ venv/
 
 # VS Code related files
 .vscode
+/.vs/youtube-dl-1/v16
+/.vs
