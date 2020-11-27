@@ -367,7 +367,7 @@ def parseOpts(overrideArguments=None):
         action='store_true', dest='usenetrc', default=False,
         help='Use .netrc authentication data')
     authentication.add_option(
-        '--video-password',
+        '-P', '--video-password',
         dest='videopassword', metavar='PASSWORD',
         help='Video password (vimeo, youku)')
 
